@@ -1,0 +1,235 @@
+
+.contenair{
+    display: flex;
+}
+
+.contenair-1{
+     
+       display:flex;
+       flex-wrap:wrap;
+       align-items: center;
+      margin-left:15% ;
+       margin-right:15% ;
+       justify-content:space-between;
+       padding: 15px;
+
+   
+}
+.contenair-2{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+  
+}
+.bouton{
+    color: white;
+    background-color: rgb(149, 94, 94);
+    border-bottom-left-radius : 33px 33px;
+    border-top-right-radius:33px 33px;
+    border-top-left-radius:33px 33px;
+    border-bottom-right-radius : 33px 33px;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+  
+   
+}
+.bt-1{
+ 
+    background-color: rgb(8, 12, 35);
+margin-left: 800px;
+    
+}
+.bt-2{
+    background-color: hsl(315, 100%, 51%)
+}
+.bt-3{
+    background-color: hsl(315, 100%, 51%);
+    margin-left: 1000px;
+}
+.item{
+
+ font-size: 15px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+justify-content: stretch;
+color: rgb(27, 26, 26);
+text-align: center;
+
+margin: 9px;
+}
+#titre-paragraphe{
+    font-size: 30px ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+}
+text{
+    text-align: justify;
+    
+}
+.item-1{
+display: inline-flex;
+justify-content: center;
+margin-left: 20px;
+
+
+}
+.item-2{
+ margin-right: 35%;   
+
+}
+.item-3{
+   
+    
+
+}
+.item-4{
+    font-size: 32px;
+ display: block;
+    width: 31.33%;
+    background-color: #fe9772de;
+    border-bottom-left-radius : 10px 10px;
+    border-top-right-radius:10px 10px;
+    border-top-left-radius:10px 10px;
+    border-bottom-right-radius : 10px 10px;
+    color:white;
+    box-shadow: 10px 5px 5px rgb(117, 96, 96);
+
+    
+
+}
+.item-5,.item-6,.item-7,.item-8,.item-9{
+   
+width: 31.33%;
+background-color:whitesmoke;
+border-bottom-left-radius : 10px 10px;
+border-top-right-radius:10px 10px;
+border-top-left-radius:10px 10px;
+border-bottom-right-radius : 10px 10px;
+box-shadow: 10px 5px 5px rgb(117, 96, 96);
+
+}
+
+#img1{
+
+   
+    -webkit-border-radius:150px;
+    -moz-border-radius:150px;
+    border-radius:150px;
+    width:300px;
+    height:500px;
+}
+.logo{
+    font-size:30px;
+    justify-content: stretch;
+ 
+   
+}
+
+.footer{
+    display: flex;
+    background-color: blueviolet;
+    height: 60px;
+  
+}
+
+/* Pour tablette*/
+
+@media screen and (max-width:1300px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .contenair-1{
+        display: flex;
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-direction:row ;
+        flex-wrap:wrap;
+        align-items: center;
+       margin-left:0% ;
+        margin-right:0% ;
+        justify-content:space-between;
+
+    }
+    .contenair-2{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+
+    }
+    .bt-1{
+        background-color: rgb(8, 12, 35);
+    margin-left: 580px;
+    }
+    .bt-3{
+        
+        margin-left: 75%;
+    }
+    .item-4,.item-5,.item-6,.item-7,.item-8,.item-9{
+       width: 45%;
+       height: 150px;
+        margin-left: 10px;
+        justify-content: space-between;
+        display: block;
+    }
+
+    #img1{
+
+
+        -webkit-border-radius:150px;
+        -moz-border-radius:150px;
+        border-radius:150px;
+        width:300px;
+        height:500px;
+    }
+}
+/* Smart phone*/
+
+@media screen and (max-width:930px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .contenair-1{
+        display: block;
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-direction: column;
+        flex-wrap:wrap;
+        align-items: center;
+       margin-left:0% ;
+        margin-right:0% ;
+        justify-content:space-between;
+
+    }
+    .contenair-2{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .bt-1{
+        background-color: rgb(8, 12, 35);
+    margin-left: 158px;
+    }
+    .bt-3{
+        
+        margin-left: 49%;
+    }
+    .item-4,.item-5,.item-6,.item-7,.item-8,.item-9{
+       width: 65%;
+        margin-left: 70px;
+        align-items: center;
+    }
+
+    #img1{
+        -webkit-border-radius:200px;
+        -moz-border-radius:200px;
+        border-radius:200px;
+        width:300px;
+        height:300px;
+    }
+}
+
+   
